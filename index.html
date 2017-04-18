@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+
+        <title>Weather</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script type="text/javascript" src="code.js"></script>
+
+        <link type="text/css" rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="city-container">
+                <h1 id="city">Unknown</h1>
+            </div>
+            <div class="weather-container">
+                <div id="temperature" class="weather-component">
+                    - °C
+                </div>
+                <div id="rainfall" class="weather-component">
+                    -
+                </div>
+                <div id="wind" class="weather-component">
+                    - - km/h
+                </div>
+            </div>
+        </div>
+        <div id="celsiusBtn" class="bottom-btn">
+            °C
+        </div>
+    </body>
+</html>
